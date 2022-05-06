@@ -27,7 +27,7 @@ namespace ConsoleApp1
 
         public void Familydetails(Child obj)
         {
-            string result = $"Surename :{obj.Surname} \n GrandFater :{obj.GrandParentName1} ,GrandMother :{obj.GrandParentName2} \n"
+            string result = $"Surname :{obj.Surname} \n GrandFater :{obj.GrandParentName1} ,GrandMother :{obj.GrandParentName2} \n"
                 + $" Father :{obj.ParentName1} ,Mother :{obj.ParentName2} \n Child :{obj.ChildName1} \n"
                 + $"Location :{obj.Location} , City :{obj.City}";
             Console.WriteLine(result);
